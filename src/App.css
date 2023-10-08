@@ -1,0 +1,40 @@
+.calculator {
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Slightly increase border radius for a softer look */
+  background-color: #b6b3b3; /* Slightly lighter background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  background-color: #f5f5f5; /* Light gray background for the display */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 20px; /* Increase button padding for a larger touch area */
+  border: 1px solid #ccc;
+  background-color: #bebebe; /* Light gray background for buttons */
+  color: #333; /* Dark gray text color */
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+button:hover {
+  background-color: rgb(255, 119, 0); /* Slightly darker gray on hover */
+  transition: background-color 0.2s ease-in-out;
+}
